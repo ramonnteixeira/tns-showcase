@@ -6,9 +6,9 @@ Primeiramente é necessário ter o nativescript instalado (http://docs.nativescr
 
 Depois basta utilizar os comandos:
 
-´´´
+```
 tns platform add ##android ou ios##
 tns run ##android ou ios##
-´´´
+```
 
 
