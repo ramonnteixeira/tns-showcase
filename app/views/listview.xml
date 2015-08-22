@@ -1,0 +1,7 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onPageLoaded">
+    <ListView items="{{ myItems }}">
+       <ListView.itemTemplate>
+          <Label text="{{ title || 'Downloading...' }}" textWrap="true" cssClass="title" />
+       </ListView.itemTemplate>
+    </ListView>
+</Page>

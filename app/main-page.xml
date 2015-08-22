@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Page xmlns="http://www.nativescript.org/tns.xsd">
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onPageLoaded">
   <ScrollView>
     <StackLayout>
+
       <Label cssClass="title" text="Layouts" />
       <StackLayout>
         <Button tag="layouts/stack-layout" text="StackLayout" tap="itemTap" />
@@ -32,7 +33,7 @@
         <Button tag="views/activity-indicator" text="ActivityIndicator" tap="itemTap" />
         <Button tag="views/image" text="Image" tap="itemTap" />
         <Button tag="views/search-bar" text="SearchBar" tap="itemTap" />
-        <Button tag="views/list-view" text="ListView" tap="itemTap" />
+        <Button tag="views/listview" text="ListView" tap="itemTap" />
         <Button tag="views/repeater" text="Repeater" tap="itemTap" />
         <Button tag="views/dialogs" text="Dialogs" tap="itemTap" />
         <Button tag="views/date-picker" text="DatePicker" tap="itemTap" />

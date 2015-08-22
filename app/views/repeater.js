@@ -1,4 +1,4 @@
-﻿export function pageLoaded(args) {
+﻿function pageLoaded(args) {
     var page = args.object;
 
     var itemsArr = [];
@@ -8,3 +8,4 @@
 
     page.bindingContext = { items: itemsArr };
 }
+exports.pageLoaded = pageLoaded;
